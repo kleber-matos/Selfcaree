@@ -5,18 +5,19 @@
     <img class="logo" src="../../assets/logo.svg" alt="Logo" />
 
     <figure>
-      <img src="../../assets/lupa.png" alt="Lupa" />
-      <img src="../../assets/usuario.png" alt="Usuario" />
-      <img src="../../assets/carrinho.png" alt="Carrinho" />
+      <img src="../../assets/lupa.svg" alt="Lupa" />
+      <img src="../../assets/usuario.svg" alt="Usuario" />
+      <img src="../../assets/carrinho.svg" alt="Carrinho" />
     </figure>
   </header>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 header {
-  border: solid;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 10vh;
 }
 
 img {
@@ -24,7 +25,7 @@ img {
 }
 
 .logo {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 figure {
