@@ -33,15 +33,19 @@
   </footer>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@mixin flex{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 footer{
     background-color: #F9F9F9;
 }
 .primarySection{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  @include flex();
     height: 20vh;
+    border-bottom: 0.2px #A5A1A1 solid;
 }
 
 ul{
@@ -58,5 +62,9 @@ button{
 input{
     padding: 9px;
     border: none;
+}
+
+.secondSection{
+  @include flex();
 }
 </style>
