@@ -41,6 +41,7 @@
 }
 footer{
     background-color: #F9F9F9;
+    padding:0 2%;
 }
 .primarySection{
   @include flex();
@@ -66,5 +67,6 @@ input{
 
 .secondSection{
   @include flex();
+  height: 12vh;
 }
 </style>
