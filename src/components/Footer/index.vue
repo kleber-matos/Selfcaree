@@ -20,14 +20,14 @@
       </div>
     </section>
    <section class="secondSection">
-    <figure>
-        <img src="" alt="Logo Instagram">
-        <img src="" alt="Logo Facebook">
+    <figure class="primaryFigure">
+        <img src="../../assets/instagran.png" alt="Logo Instagram">
+        <img src="../../assets/facebook.png" alt="Logo Facebook">
     </figure>
-     <figure>
-          <img src="" alt="Logo mastercard">
-          <img src="" alt="Logo Paypal">
-          <img src="" alt="Logo Visa">
+     <figure class="secondFigure">
+          <img src="../../assets/mastercard.png" alt="Logo mastercard">
+          <img src="../../assets/pay.png" alt="Logo Paypal">
+          <img src="../../assets/visa.png" alt="Logo Visa">
      </figure>
    </section>
   </footer>
@@ -47,10 +47,15 @@ footer{
   @include flex();
     height: 20vh;
     border-bottom: 0.2px #A5A1A1 solid;
+
+    h4{
+      padding-bottom: 10px;
+    }
 }
 
 ul{
     list-style: none;
+    line-height: 1.5;
 }
 
 button{
@@ -58,15 +63,28 @@ button{
     color: white;
     border: none;
     padding: 9px 20px;
+    font-weight: 800;
+    cursor: pointer;
 }
 
 input{
     padding: 9px;
     border: none;
+     width: 20vw;
 }
 
 .secondSection{
   @include flex();
   height: 12vh;
+
+  .primaryFigure{
+      width: 6vw;
+      @include flex();
+    
+  }
+  .secondFigure{
+     @include flex();
+     width: 12vw;
+  }
 }
 </style>
