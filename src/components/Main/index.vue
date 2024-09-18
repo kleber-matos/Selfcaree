@@ -1,5 +1,5 @@
 <script setup>
-import produtos from "../../produtos.json";
+import produtos from "../../data/produtos.json";
 </script>
 
 <template>
