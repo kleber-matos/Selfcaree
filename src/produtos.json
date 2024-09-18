@@ -1,0 +1,47 @@
+[
+  {
+    "imagem": "",
+    "nome": "Lorem ipsum dolor sit",
+    "preco": 50.0
+  },
+  {
+    "imagem": "",
+    "nome": "Curabitur aliquet quam",
+    "preco": 45.0
+  },
+  {
+    "imagem": "",
+    "nome": "Nulla quis lorem ut",
+    "preco": 60.0
+  },
+  {
+    "imagem": "",
+    "nome": "Vestibulum ante ipsum",
+    "preco": 30.0
+  },
+  {
+    "imagem": "",
+    "nome": "Praesent sapien massa",
+    "preco": 55.0
+  },
+  {
+    "imagem": "",
+    "nome": "Mauris blandit aliquet",
+    "preco": 40.0
+  },
+  {
+    "imagem": "",
+    "nome": "Aenean leo ligula",
+    "preco": 65.0
+  },
+  {
+    "imagem": "",
+    "nome": "Donec sollicitudin molestie",
+    "preco": 70.0
+  },
+  {
+    "imagem": "",
+    "nome": "Pellentesque in ipsum id",
+    "preco": 35.0
+  }
+]
